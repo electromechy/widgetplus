@@ -7,7 +7,7 @@ import axios from 'axios';
  */
 export const sendWelcomeMessage = async (roomId: string, userId: string) => {
   const endpoint = `https://synapse.textrp.io/_matrix/client/r0/rooms/${roomId}/send/m.room.message`;
-  const accessToken = 'syt_cmZiRGpuenI5cmlFTFFadG45NVJFUWhSN2ZpeUt5R003Nw_AcYoSdtukLakIAcBamCa_4LKFA0'; // Replace with a secure method to retrieve this.
+  const accessToken = 'TOKEN'; // Replace with a secure method to retrieve this.
 
   try {
     await axios.post(
